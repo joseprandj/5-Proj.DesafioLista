@@ -1,0 +1,108 @@
+*{
+    padding: 0px;
+    margin: 0px;}
+
+h1, p{
+    font-family: 'Cookie', cursive;
+    font-size: 25px;
+    padding-bottom: 5px;}
+
+#titleInstructions, #titleHeader{
+    font-size: 50px;
+    text-align: center;}
+
+body{
+    background-color: rgb(0, 255, 255, 0.1);
+    background-size: cover;}
+
+header{
+    background-color: rgb(0, 255, 255, 0.3);
+    padding-top: 10px;
+    padding-bottom: 10px;}
+
+#menuList{
+    padding-top: 10px;
+    text-align: center;}
+
+#addItem{
+    height: 35px;
+    width: 290px;}
+
+.button{
+    background-color: rgb(138, 43, 226, 0.7);
+    display: inline-block;
+    padding: 7px;
+    border-radius: 10%;}
+
+#orlist{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 800px;
+    margin-left: 20%;}
+
+li{
+    font-family: 'Cookie', cursive;
+    font-size: 25px;
+    text-align: left;
+    list-style: none;
+    border-bottom: 1px solid black;}
+
+#delAndClear, #del, #clear{
+    display: inline-block;}
+
+#clear{
+    padding-left: 20px;}
+
+#intructions{
+    padding-left: 17%;
+    margin-top: 25px;
+    text-align: center;
+    display: inline-block;}
+
+.containerIntructions{
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 10px;}
+
+#containerIntructions{
+    display: inline-block;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding-left: 10px;
+    padding-right: 10px;}
+
+#imageListContainer{
+    height: 30px;}
+
+.button:hover{
+    background-color: rgb(138, 43, 226, 0.3);
+    transition: 0.2s linear;
+    padding: 8px;
+    font-weight: 900;}
+
+@media screen and (max-width: 600px){
+
+    #titleInstructions {
+        font-size: 30px;
+        padding-top: 20px;}
+    
+    .button{
+        margin-top: 10px;}
+    
+    #orlist{
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 10px;
+        padding-right: 20px;
+        width: auto;
+        margin-left: 2%;}
+    
+    #intructions{
+        margin-top: 10px;
+        padding: 0%;}
+    
+    .containerIntructions, #containerIntructions{
+        margin-top: 5px;
+        border: none;}  
+
+}

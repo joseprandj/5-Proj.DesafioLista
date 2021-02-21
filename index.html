@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio da Lista</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./imagens/icon/iconList.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="loaded()">
+
+    <header>
+        <h1 id="titleHeader" >Faça sua Lista</h1>
+    </header>
+
+    <section id="menuList">
+
+        <section id="addList">
+
+            <h1>Digite a Tarefa para adiciona-la na lista</h1>
+
+            <section id="inputList">
+
+                <input id="addItem" type="text" placeholder="Digite Aqui...">
+                
+                <p onclick="saveItem()" class="button">Adicionar</p>
+
+            </section>
+            
+            <section id="orlist">
+
+                <ol id="list">
+
+                </ol>
+
+            </section>
+
+            <section id="delAndClear">
+
+                <section id="del">
+
+                    <p onclick="deleteItem()" class="button">Excluir</p>
+
+                </section>
+
+                <section id="clear">
+                    <input type="checkbox" name="checkDel">
+
+                    <p onclick="clearList()" class="button">Limpar</p>
+                </section>
+                
+            </section>
+
+        </section>
+
+    </section>
+
+    <section id="intructions">
+
+        <h1 id="titleInstructions"> 
+            
+            <img id="imageListContainer" src="./imagens/icon/iconList.png" alt="imageList"> 
+            
+            Como Usar a Lista: 
+            
+            <img id="imageListContainer" src="./imagens/icon/iconList.png" alt="imageList"></h1>
+        
+        <section class="containerIntructions">
+            <h1>Como <ins>Adicionar</ins> Itens na Lista:</h1>
+            <p>1 - Digite o Item para adicionar a lista</p>
+            <p>2 - Clique em "Adicionar"</p>
+        </section>
+
+        <section id="containerIntructions">
+            <h1>Como <ins>Remover</ins> Itens da Lista:</h1>
+            <p>1 - Selecione o Item</p>
+            <p>2 - Clique em "Excluir"</p>
+        </section>
+
+        <section class="containerIntructions">
+            <h1>Como <ins>Limpar</ins> a Lista:</h1>
+            <p>1 - Selecione a Caixa de Verificação</p>
+            <p>2 - Clique em "Limpar"</p>
+        </section>
+
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+</html>
